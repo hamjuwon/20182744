@@ -9,61 +9,53 @@ clearfix::before, clearfix::after {display: block; content: ''; clear: both; }
 	padding: 0;
 }
 
-
-/*HEADER*/
-
+/* header */
 .main { background-color: #9A8DB9; width: 100%; height: 850px;}
-.nav{ width: 1900px; margin: auto;}
-.bar {justify-content: flex-end; display: flex; width: 100%; height: 80px; }
-.bar li {margin-top: 20px;margin-right:90px; line-height: 40px;}
-.bar li a {color: white; font-weight: bold; font-size: 20px;}
 
-.maintext { margin-top: 150px; width: 100%; height: 400px; }
-.maintext span { color: white; }
+.maintext {position: relative; text-align: center; top: 33%;}
 .mt1 {font-family: 'Russo One', sans-serif; text-align: center; font-size: 63px;  }
 .mt2 {font-family: 'Russo One', sans-serif; text-align: center; font-size: 85px;}
-.mt3 {font-family: 'Russo One', sans-serif;margin-top: -20px; text-align: center; font-size: 85px;}
-.mt4 {font-family: 'Russo One', sans-serif; margin-top: 10px; text-align: center; font-size: 35px;}
+.mt3 {font-family: 'Russo One', sans-serif;text-align: center; font-size: 85px;}
+.mt4 {font-family: 'Russo One', sans-serif; text-align: center; font-size: 35px;}
+
 
 /*ABOUT ME*/
-
-
 .tittle { margin: auto; font-size: 40px; font-weight: bold; background-color: #9A8DB9; width: 350px;height: 80px; border-radius: 100px;border:10px solid white; margin-top: -50px;}
 .tittle span {color: white; line-height: 80px; margin-left: 70px;}
-.allbout { width: 80%; height: 800px;margin: auto; margin-top: 50px;}
-.me {height: 700px; width: 700px; margin-top: 50px; float: left;}
-.me img {width: 70%; height: auto; margin-left: 50px;}
-.tt1 {font-family: 'Jua', sans-serif; font-size: 25px; margin-top: 30px; text-align: center; display: block;}
-.profile {float: left;}
-.pro {margin-left: 100px;margin-top: 100px; width: 400px;}
 
-.pt1 {font-size: 30px;font-weight: bold;}
+.allbout { margin-top: 100px; margin-left: 100px; margin-right: 100px; text-align: center; display: flex;}
+.allpro { width: 100%; mt100}
+.me {}
+.me img {margin-bottom: 50px;}
+
+.tt1 { font-family: 'Jua', sans-serif; font-size: 25px; margin-top: 50px; text-align: center; }
+.pro { display: inline-block; text-align: left; width: 500px; margin-right: 100px;vertical-align: text-bottom; margin-top: 200px;}
+.pro2 { display: inline-block; text-align: left; width: 500px; height: 250px;top: -100px; vertical-align: text-bottom;}
+.pt1 {font-size: 30px;font-weight: bold; }
 .pt2 {float: left; margin-top: 50px;font-size: 20px;width: 130px; line-height: 40px;}
 .pt3 { margin-top: 50px;font-size: 20px; line-height: 40px;}
 
-.lt1 {margin-top: 120px;font-size: 30px;font-weight: bold;}
+.lt1 {font-size: 30px;font-weight: bold;}
 .lt2 {float: left; margin-top: 50px;font-size: 20px;width: 130px; line-height: 40px;}
 .lt3 { margin-top: 50px;font-size: 20px; line-height: 40px;}
 
-.license {float: left;}
-.icon {line-height: 65; text-align: right;}
+.icon {margin-top: 850px; text-align: right;}
 
 /*ux/ui*/
 
 /*ux/ui-tittle*/
 .tittle2 {margin: auto; font-size: 40px; font-weight: bold; background-color: #9A8DB9; width: 250px;height: 80px; margin-top: 300px; border-radius: 100px;}
 .tittle2 span {color: white; line-height: 80px; margin-left: 70px;}
+
+.ui { margin-top: 100px; margin-left: 100px; margin-right: 100px; text-align: center ; display:inline-block; width: 92%;}
+
+
 /*ux/ui-ui1*/
-.ui { margin: auto; margin-top: 300px;}
-.ui1 {margin: auto; float: center;}
-.ui2 {margin: auto; float: center;}
-.ui3 {margin: auto; float: center;}
 
-.ui1 img { width: 37%;float: left; margin-left: 300px; margin-top: 80px; box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);}
+.ui1 {width: 100%;  display: inline-block; margin-top: 200px;}
+.ui1 img {width: 40%; float: left; margin-left: 10%; margin-right: 100px;box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180); margin-top: 20px;} 
 
-.uitt {width: 1920px; top: 100%; }
-
-.uitext {float: left; text-align: left; width: 450px;  margin-top: 60px; margin-left: 100px;}
+.uitext {text-align: left;  height: 500px; margin-left: 900px; margin-right: 100px; }
 .uit1 {font-size: 40px; padding-top: 50px;font-weight: bold;}
 .uit2 {font-size: 35px;font-weight: bold;}
 .uit3 { margin-top: 40px; font-size: 18px; line-height: 1.6; text-align: justify;}
@@ -71,13 +63,12 @@ clearfix::before, clearfix::after {display: block; content: ''; clear: both; }
 .color1 {margin-top: 10px; float: left; background-color: #F9C2C2; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
 .color2 {margin-top: 10px; float: left; background-color: #B20202; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
 .color3 {margin-top: 10px; float: left; background-color: #FFEAD9; width: 30px; height: 30px; border-radius: 100px;}
-.detail {margin-top: 80px; text-align: center;width: 96px; height: 36px; color: #615385; line-height: 36px;border-radius: 10px; font-weight: bold; border:3px solid #615385;}
-.view { margin-top: 10px;float: left; text-align: center;width: 100px; height: 40px; background: #615385; color: white; line-height: 40px; border-radius: 10px; font-weight: bold; margin-bottom: 250px;}
+.detail1 {display: inline-block; margin-top: 30px; text-align: center;width: 96px; height: 36px;  background: #615385; color: white; line-height: 40px; border-radius: 10px; font-weight: bold;}
 
 /*ux/ui-ui2*/
-
-.ui2 img { width: 37%;float: left; margin-left: 300px; margin-top: 380px; box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);b}
-.uitext2 {float: left; text-align: left; width: 450px;  margin-top: 420px; margin-left: 100px;}
+.ui2 {width: 100%; display: inline-block; margin-top: 400px;}
+.ui2 img {width: 40%; float: left; margin-left: 10%; margin-right: 100px;box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180); margin-top: 20px;} 
+.uitext2 {text-align: left;  height: 500px; margin-left: 900px; margin-right: 100px; margin-top: 7%; }
 .uit5 {font-size: 40px; padding-top: 50px;font-weight: bold;}
 .uit6 {font-size: 35px;font-weight: bold;}
 .uit7 { margin-top: 40px; font-size: 18px; line-height: 1.6; text-align: justify;}
@@ -85,12 +76,13 @@ clearfix::before, clearfix::after {display: block; content: ''; clear: both; }
 .color4 {margin-top: 10px; float: left; background-color: #3F8D85; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
 .color5 {margin-top: 10px; float: left; background-color: #234358; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
 .color6 {margin-top: 10px; float: left; background-color: #FF9494; width: 30px; height: 30px; border-radius: 100px;}
-.detail {margin-top: 80px; text-align: center;width: 96px; height: 36px; color: #615385; line-height: 36px;border-radius: 10px; font-weight: bold; border:3px solid #615385;}
-.view { margin-top: 10px;float: left; text-align: center;width: 100px; height: 40px; background: #615385; color: white; line-height: 40px; border-radius: 10px; font-weight: bold; margin-bottom: 300px;}
+.detail2 {margin-top: 20px; float: left; text-align: center;width: 96px; height: 36px; color: #615385; line-height: 36px;border-radius: 10px; font-weight: bold; border:3px solid #615385; margin-right: 10px;}
+.view2 {margin-top: 50px; width: 100px; height: 40px;display: inline-block;  background: #615385;  text-align: center; color: white; line-height: 40px; border-radius: 10px; font-weight: bold;}
 
 /*ux/ui-ui3*/
-.ui3 img { width: 50%;float: left; margin-left: 130px; margin-top: 500px; box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);}
-.uitext3 {float: left; text-align: left; width: 400px;  margin-top: 500px; margin-left: 100px;}
+.ui3 {width: 100%; display: inline-block; margin-top: 400px;}
+.ui3 img {width: 40%; float: left; margin-left: 10%; margin-right: 100px;box-shadow: 5px 10px 20px 0.1px rgb(180, 180, 180);  margin-top: 80px;} 
+.uitext3 {text-align: left;  height: 500px; margin-left: 900px; margin-right: 00px;  margin-top: 2%;}
 .uitt3 {width: 1920px; top: 100%; }
 .uit9 {font-size: 40px; padding-top: 50px;font-weight: bold;}
 .uit10 {font-size: 35px;font-weight: bold;}
@@ -100,7 +92,7 @@ clearfix::before, clearfix::after {display: block; content: ''; clear: both; }
 .color8 {margin-top: 10px; float: left; background-color: #FFC400; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
 .color9 {margin-top: 10px; float: left; background-color: #4E4E4E; width: 30px; height: 30px; border-radius: 100px;}
 
-#GRAPHIC {float: center; margin-top: 4600px;}
+#GRAPHIC {float: center; margin-top: 600px;}
 .tittle3 {margin: auto; font-size: 40px; font-weight: bold; background-color: #9A8DB9; width: 350px;height: 80px; margin-top: 300px; border-radius: 100px;}
 .tittle3 span {color: white; line-height: 80px; margin-left: 85px;}
 
