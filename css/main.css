@@ -76,7 +76,7 @@ clearfix::before, clearfix::after {display: block; content: ''; clear: both; }
 .color4 {margin-top: 10px; float: left; background-color: #3F8D85; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
 .color5 {margin-top: 10px; float: left; background-color: #234358; width: 30px; height: 30px; border-radius: 100px; margin-right: 10px;}
 .color6 {margin-top: 10px; float: left; background-color: #FF9494; width: 30px; height: 30px; border-radius: 100px;}
-.detail2 {margin-top: 20px; float: left; text-align: center;width: 96px; height: 36px; color: #615385; line-height: 36px;border-radius: 10px; font-weight: bold; border:3px solid #615385; margin-right: 10px;}
+.detail2 {margin-top: 50px; float: left; text-align: center;width: 96px; height: 36px; color: #615385; line-height: 36px;border-radius: 10px; font-weight: bold; border:3px solid #615385; margin-right: 10px;}
 .view2 {margin-top: 50px; width: 100px; height: 40px;display: inline-block;  background: #615385;  text-align: center; color: white; line-height: 40px; border-radius: 10px; font-weight: bold;}
 
 /*ux/ui-ui3*/
